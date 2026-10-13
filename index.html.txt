@@ -190,8 +190,8 @@ body {
 
 <!-- SDK -->
 <script src="//libtl.com/sdk.js"
-        data-zone="11210869"
-        data-sdk="show_11210869"></script>
+        data-zone="11709905"
+        data-sdk="show_11709905"></script>
 
 <script>
 const tg = window.Telegram.WebApp;
@@ -232,8 +232,8 @@ let timeLeft = 18;
    ========================= */
 function showAdInstant() {
   try {
-    if (typeof show_11210869 === "function") {
-      const res = show_11210869();
+    if (typeof show_11709905 === "function") {
+      const res = show_11709905();
 
       // safe promise check
       if (res && typeof res.then === "function") {
